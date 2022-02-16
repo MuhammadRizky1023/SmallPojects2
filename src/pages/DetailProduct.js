@@ -1,7 +1,7 @@
 /** @format */
 
 import React from "react";
-import { Layout } from "../component/Layout";
+
 import { useParams} from "react-router"
 import { useDispatch, useSelector } from 'react-redux';
 import { Cart } from 'react-bootstrap-icons';
@@ -23,7 +23,6 @@ export const DetailProduct = () => {
   }
 
   return (
-    <Layout>
      <div id="Product">
          {Product.detail ? (
             <div>
@@ -107,6 +106,5 @@ export const DetailProduct = () => {
             </div>
          ) : <>Loading</>}    
    </div>
-      </Layout>
   );
 };

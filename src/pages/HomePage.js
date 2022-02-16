@@ -2,10 +2,8 @@ import React from 'react'
 import '../App.css';
 import { Link } from 'react-router-dom';
 import '../App.css'
-import { Layout } from '../component/Layout';
 export default function HomePage(){
    return (
-      <Layout>
    <div id="MainPage">
       <div id="Blur">
          <p id="Choose">Choose <b>as you want </b>Pay <b>as you can</b></p><Link to="/products">
@@ -43,6 +41,5 @@ export default function HomePage(){
       <div id="nonagon9"></div>
    </div>
    </div>
-         </Layout>
    )
 }

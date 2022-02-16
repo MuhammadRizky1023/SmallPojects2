@@ -3,9 +3,7 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
-import { Layout } from "../component/Layout";
 import { Cart } from "react-bootstrap-icons";
-import axios from "axios";
 
 export const ListProducts = () => {
   const dispatch = useDispatch()
@@ -55,7 +53,6 @@ export const ListProducts = () => {
   
 
   return (
-    <Layout>
       <div id="Shop">
         <div id="shopName">The Fashion</div>
         <div id="Rectangle-51">
@@ -172,6 +169,5 @@ export const ListProducts = () => {
           <div id="nonagenJ" />
         </div>
       </div>
-    </Layout>
   );
 };
